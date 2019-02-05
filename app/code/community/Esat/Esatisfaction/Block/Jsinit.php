@@ -1,6 +1,6 @@
 <?php
 /**
- * Magento
+ * Magento.
  *
  * NOTICE OF LICENSE
  *
@@ -13,23 +13,23 @@
  * to license@magentocommerce.com so we can send you a copy immediately.
  *
  * @category    Phoenix
- * @package     Phoenix_Moneybookers
+ *
  * @copyright   Copyright (c) 2016 Phoenix Medien GmbH & Co. KG (http://www.phoenix-medien.de)
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 class Esat_Esatisfaction_Block_Jsinit extends Mage_Adminhtml_Block_Template
 {
     /**
-     * Include JS in head if section is moneybookers
+     * Include JS in head if section is moneybookers.
      */
     protected function _prepareLayout()
     {
-        
         parent::_prepareLayout();
     }
 
     /**
-     * Print init JS script into body
+     * Print init JS script into body.
+     *
      * @return string
      */
     protected function _toHtml()

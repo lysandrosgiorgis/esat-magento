@@ -1,4 +1,5 @@
 <?php
+
 class Esat_Esatisfaction_Block_Adminhtml_Grid_Renderer_Sales_Order_Schedule extends Mage_Adminhtml_Block_Widget_Grid_Column_Renderer_Abstract
 {
     protected function _construct()
@@ -9,7 +10,8 @@ class Esat_Esatisfaction_Block_Adminhtml_Grid_Renderer_Sales_Order_Schedule exte
 
     public function render(Varien_Object $row)
     {
-		$this->setOrder($row);
+        $this->setOrder($row);
+
         return $this->toHtml();
     }
 
@@ -17,7 +19,7 @@ class Esat_Esatisfaction_Block_Adminhtml_Grid_Renderer_Sales_Order_Schedule exte
     {
         return true;
     }
-	
+
     public function setOrder($customer)
     {
         return parent::setOrder($customer);
@@ -27,5 +29,4 @@ class Esat_Esatisfaction_Block_Adminhtml_Grid_Renderer_Sales_Order_Schedule exte
     {
         return parent::getOrder();
     }
-	
 }
